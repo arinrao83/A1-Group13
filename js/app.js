@@ -50,7 +50,7 @@ function speakNow() {
 }
 
 /* Event Listeners */
-buttons = document.querySelectorAll('button')
+const buttons = document.querySelectorAll('button');
 buttons.forEach(button => {
     button.addEventListener('click', function(e){
         e.target.style.backgroundColor = "red";
